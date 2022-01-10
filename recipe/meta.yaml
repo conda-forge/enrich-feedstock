@@ -1,5 +1,5 @@
 {% set name = "enrich" %}
-{% set version = "1.2.6" %}
+{% set version = "1.2.7" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/enrich-{{ version }}.tar.gz
-  sha256: 0e99ff57d87f7b5def0ca79917e88fb9351aa0d52e228ee38bff7cd858315fe4
+  sha256: 0a2ab0d2931dff8947012602d1234d2a3ee002d9a355b5d70be6bf5466008893
 
 build:
   number: 0
